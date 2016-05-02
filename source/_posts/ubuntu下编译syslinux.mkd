@@ -1,0 +1,18 @@
+---
+title: ubuntu下编译syslinux
+categories: [syslinux]
+tags: [syslinux, ubuntu]
+date: 2015-03-19 15:55:43
+---
+
+-   下载源代码[官网](https://www.kernel.org/pub/linux/utils/boot/syslinux/)
+
+-   安装编译工具
+
+        sudo apt-get install mingw32 nasm uuid-dev
+
+-   提取源代码到`extN`分区
+
+-   进入源代码目录
+
+        make bios

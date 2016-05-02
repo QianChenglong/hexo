@@ -1,0 +1,57 @@
+# slogan: "Yet another bootstrap theme."
+
+theme: bootstrap
+inverse: true
+
+menu:
+  - title: Archives
+    url: archives
+    intro: "All the articles."
+    icon: "fa fa-archive"
+  - title: Categories
+    url: categories
+    intro: "All the categories."
+    icon: "fa fa-folder"
+  - title: Tags
+    url: tags
+    intro: "All the tags."
+    icon: "fa fa-tags"
+  - title: About
+    url: about
+    intro: "About me."
+    icon: "fa fa-user"
+
+links:
+  - title: "My Github"
+    url: https://github.com/QianChenglong
+    intro: "My Github account."
+    icon: "fa fa-github"
+
+widgets:
+- search
+- category
+- tagcloud
+- recent_posts
+- links
+
+rss: atom.xml
+fancybox: true
+favicon: favicon.png
+duoshuo_shortname: qianchenglong
+
+# Analytics
+google_analytics:
+  enable: false
+  siteid: UA-54976309-1
+baidu_tongji:
+  enable: false
+  siteid: 9d0320e39bf03e6be5dc92bf235c8869
+
+# search
+#   url: /search
+# swiftype_key: ZP2ZSuHgipSZfRyU8uTR
+
+# share widgets
+bdshare: true
+jiathis: false
+
